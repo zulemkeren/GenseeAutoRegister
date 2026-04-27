@@ -2,7 +2,7 @@
 
 Otomatis daftar akun Gensee.ai pake referral code
 
-Syarat biar akun refferal itu harus buat instance dan tinggal nunggu selama kurang lebih 30 menit. Script ini udah pakai auto create instance juga di register.py
+Syarat biar akun refferal kahitung itu harus buat instance dan tinggal nunggu selama kurang lebih 30 menit. Script ini udah pakai auto create instance juga di register.py
 
 Direkomendasikan pakai residential proxy supaya per register bisa beda IP
 
