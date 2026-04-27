@@ -1,8 +1,11 @@
 # Gensee.ai Auto Signup
 
-Otomatis daftar akun Gensee.ai pake referral code, lewat residential proxy biar gak ke-detect 1 IP doang.
+Otomatis daftar akun Gensee.ai pake referral code
 
 ## Cara pake
+```bash
+git clone
+```
 
 ### 1. Setup pertama kali
 
