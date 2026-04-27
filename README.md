@@ -4,13 +4,20 @@ Otomatis daftar akun Gensee.ai pake referral code
 
 ## Cara pake
 ```bash
-git clone
+git clone https://github.com/zulemkeren/GeneeAutoRegister.git
+cd GeneeAutoRegister
 ```
-
-### 1. Setup pertama kali
-
 ```bash
-cd gensee-register
+python -m venv venv
+source venv/Scripts/activate
+```
+```bash
+pip install -r requirements.txt
+```
+```bash
+playwright install chromium
+```
+```bash
 cp .env.example .env
 ```
 
