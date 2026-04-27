@@ -7,7 +7,7 @@ Otomatis daftar akun Gensee.ai pake referral code, lewat residential proxy biar 
 ### 1. Setup pertama kali
 
 ```bash
-cd C:\devin\gensee-register
+cd gensee-register
 cp .env.example .env
 ```
 
