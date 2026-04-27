@@ -30,7 +30,7 @@ Edit `.env`, isi 3 hal:
 - `REFERRAL_CODE` — kode referral yang mau dipake (default `W3EWKVAJ`)
 - `PROXY_*` — opsional, kalo punya proxy. Kalo gak punya, **comment-out aja semua line `PROXY_`**
 
-## 3. Jalanin Auto Register
+## Jalanin Auto Register
 
 ```bash
 python register.py          # daftar akun + bikin instance (~4-5 menit)
