@@ -1,6 +1,7 @@
 # Gensee.ai Auto Signup
 
 Otomatis daftar akun Gensee.ai pake referral code
+Syarat biar akun refferal itu harus buat instance dan tinggal nunggu selama kurang lebih 30 menit. Script ini udah pakai auto create instance juga di register.py
 
 ## Cara Install
 ```bash
@@ -30,7 +31,7 @@ Edit `.env`, isi 3 hal:
 
 ```bash
 python register.py          # daftar akun + bikin instance (~4-5 menit)
-python check_status.py      # aktivasi Premium+ trial + cek status
+python check_status.py      # aktivasi Premium+ trial + cek status (ini gaperlu ya, udah otomatis di register.py)
 ```
 
 `register.py` udah include create instance otomatis di akhir flow — pake browser session yang sama (1 IP, hemat 1 captcha solve jika pakai proxy). Akun baru di-**append** ke `accounts.json` dengan nomor urut, gak overwrite akun sebelumnya.
