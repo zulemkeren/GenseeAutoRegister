@@ -1,0 +1,27 @@
+# ===== Secrets & data =====
+.env
+accounts.json
+_meta.json
+credentials.json
+run*.log
+
+# ===== Python =====
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# ===== Playwright artifacts =====
+*.png
+*.html
+test-results/
+playwright-report/
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
