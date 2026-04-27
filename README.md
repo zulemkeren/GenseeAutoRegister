@@ -12,10 +12,6 @@ git clone https://github.com/zulemkeren/GeneeAutoRegister.git
 cd GeneeAutoRegister
 ```
 ```bash
-python -m venv venv
-source venv/Scripts/activate
-```
-```bash
 pip install -r requirements.txt
 ```
 ```bash
@@ -23,6 +19,10 @@ playwright install chromium
 ```
 ```bash
 cp .env.example .env
+```
+```bash
+python -m venv venv
+source venv/Scripts/activate
 ```
 
 Edit `.env`, isi 3 hal:
