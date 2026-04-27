@@ -2,7 +2,7 @@
 
 Otomatis daftar akun Gensee.ai pake referral code
 
-## Cara pake
+## Cara Install
 ```bash
 git clone https://github.com/zulemkeren/GeneeAutoRegister.git
 cd GeneeAutoRegister
@@ -26,29 +26,14 @@ Edit `.env`, isi 3 hal:
 - `REFERRAL_CODE` — kode referral yang mau dipake (default `W3EWKVAJ`)
 - `PROXY_*` — opsional, kalo punya proxy. Kalo gak punya, **comment-out aja semua line `PROXY_`**
 
-### 2. Activate venv (WAJIB tiap buka terminal baru)
-
-```bash
-# Git Bash:
-source venv/Scripts/activate
-
-# CMD:
-venv\Scripts\activate.bat
-
-# PowerShell:
-venv\Scripts\Activate.ps1
-```
-
-Kalo udah aktif, prompt lo ada `(venv)` di depan. Kalo gak activate dulu, bakal error `ModuleNotFoundError: No module named 'dotenv'`.
-
-### 3. Jalanin
+## 3. Jalanin Auto Register
 
 ```bash
 python register.py          # daftar akun + bikin instance (~4-5 menit)
 python check_status.py      # aktivasi Premium+ trial + cek status
 ```
 
-`register.py` udah include create instance otomatis di akhir flow — pake browser session yang sama (1 IP, hemat 1 captcha solve). Akun baru di-**append** ke `accounts.json` dengan nomor urut, gak overwrite akun sebelumnya.
+`register.py` udah include create instance otomatis di akhir flow — pake browser session yang sama (1 IP, hemat 1 captcha solve jika pakai proxy). Akun baru di-**append** ke `accounts.json` dengan nomor urut, gak overwrite akun sebelumnya.
 
 Format `accounts.json` clean & simple:
 
