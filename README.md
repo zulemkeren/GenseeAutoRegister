@@ -21,6 +21,9 @@ playwright install chromium
 cp .env.example .env
 ```
 ```bash
+nano .env
+```
+```bash
 python -m venv venv
 source venv/Scripts/activate
 ```
